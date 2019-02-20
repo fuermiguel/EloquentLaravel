@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('crear/{id}','EloquentController@create');
+Route::get('mostrar/{id}','EloquentController@show');
+Route::get('borrar/{id}','EloquentController@delete');
+Route::get('perfil/{id}','EloquentController@showUser');
