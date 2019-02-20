@@ -1,11 +1,15 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 
-class ArticleTagsTableSeeder extends Seeder
+class ArticlesTagsTableSeeder extends Seeder
 {
     /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+     /**
      * Run the database seeds.
      *
      * @return void
@@ -14,7 +18,7 @@ class ArticleTagsTableSeeder extends Seeder
     {
         //  public function run()
 
-        DB::table('article_tags')->insert([
+        DB::table('articles_tags')->insert([
             'article_id' => rand(1,30),
             'tag_id' => rand(1,5),
         ]);

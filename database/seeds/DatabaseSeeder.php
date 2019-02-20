@@ -37,7 +37,7 @@ class DatabaseSeeder extends Seeder
         
         for ($j=0; $j < 10; $j++) { 
             # code...
-            $this->call(ArticleTagsTableSeeder::class);
+            $this->call (ArticlesTagsTableSeeder::class);
         }
 
       
