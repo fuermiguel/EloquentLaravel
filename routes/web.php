@@ -19,3 +19,4 @@ Route::get('crear/{id}','EloquentController@create');
 Route::get('mostrar/{id}','EloquentController@show');
 Route::get('borrar/{id}','EloquentController@delete');
 Route::get('perfil/{id}','EloquentController@showUser');
+Route::get('escritor/{id}','LibreriaControler@show');
