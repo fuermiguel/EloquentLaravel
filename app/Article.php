@@ -12,4 +12,8 @@ class Article extends Model
     {
         return $this->belongsTo('App\Writer');
     }
+
+    public function tags() {
+        return $this->belongsToMany('App\Tag');
+    }
 }

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Profile;
 use App\user;
 
+
 class EloquentController extends Controller
 {
     public function create($id){//Crea un perfil 
