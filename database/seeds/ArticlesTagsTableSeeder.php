@@ -18,7 +18,7 @@ class ArticlesTagsTableSeeder extends Seeder
     {
         //  public function run()
 
-        DB::table('articles_tags')->insert([
+        DB::table('article_tag')->insert([
             'article_id' => rand(1,30),
             'tag_id' => rand(1,5),
         ]);

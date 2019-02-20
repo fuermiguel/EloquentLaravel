@@ -20,4 +20,4 @@ Route::get('mostrar/{id}','EloquentController@show');
 Route::get('borrar/{id}','EloquentController@delete');
 Route::get('perfil/{id}','EloquentController@showUser');
 Route::get('escritor/{id}','LibreriaControler@show');
-Route::get('escritor/{id}/{id_art}','LibreriaControler@showTags');//Dos parámetros (autor y un articulo})
+Route::get('etiquetas/','LibreriaControler@Tags');//Dos parámetros (autor y un articulo})
