@@ -17,5 +17,18 @@ class DatabaseSeeder extends Seeder
             # code...
             $this->call(UsersTableSeeder::class);
         }
+
+        for ($i=0; $i < 10; $i++) { 
+            # code...
+            $this->call(WritersTableSeeder::class);
+           
+        }
+
+        for ($j=0; $j < 30; $j++) { 
+            # code...
+            $this->call(ArticlesTableSeeder::class);
+        }
+
+      
     }
 }
